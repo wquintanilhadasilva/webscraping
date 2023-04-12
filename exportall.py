@@ -2,7 +2,7 @@ import os
 from bs4 import BeautifulSoup
 
 output_file = "output.csv"
-directory = "G:/Meu Drive/_ambientes/output/oobj_nfe_central/public/tables" #"scraping"
+directory = "~/output/public/tables"
 
 with open(output_file, "w", encoding="utf-8") as f_out:
     f_out.write("tabela;coluna;descricao\n")
